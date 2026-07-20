@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    background-color: #777777;
+    box-sizing: border-box;
+}
+
+/*Navigation Bar Syling*/
+nav {
+    width: 95%;
+    height: 75px;
+    background-color: #585858;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border: 3px solid #0e0d0d;
+}
+
+/*Logo to styling*/
+.logo {
+    font-size: 25px;
+    font-family: cursive;
+    background-color: rgb(150, 149, 149);
+    border: 3px solid #0e0d0d;
+    border-radius:20px;
+}
+
+/*Menu on header styling*/
+.menu {   
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+/*Menu header list styling*/
+.menu li {
+   
+    padding: 5px 10px;
+}
+
+/*Menu header text styling*/
+.menu li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+}
+
+/*Menu header text hover*/
+.menu li a:hover {
+    color: #ccc;
+}
+
+/*Menu header text active*/
+.menu li.active {
+    background-color: rgb(148, 148, 148);
+}
+/*Top right paragraph*/
+.lang p{ 
+    position: absolute;
+    top:5px;
+    right: 10px;
+    font-size: 10px;
+    }
+/*Top right paragraph and icone*/
+.lang2 p, .lang2 i{
+    position: absolute;
+    bottom:0px;
+    right: 10px; 
+    font-size: 10px;
+}
+
+
+/*Search price min to max*/
+.to{position:relative;
+        top:10px;}
+
+/*-------------start coding for main body----------*/
+/*Search below the logo section styling*/
+.container_1 {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(182, 181, 181);
+    position: relative;
+    top: 80px;
+    left: 10px;
+    padding: 10px 10px;
+    border: 4px solid black;
+       
+}      
+/*Styling input fields*/
+.search input, .price1 input,.price2 input, .beds input, .baths input{
+    width: 70%;
+    color:white;
+    background-color: #858484;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius:15px;
+}
+/*Styling input and lables*/
+input, label{display: block; font-family: cursive; }
+/*Styling text in textfields*/
+input::placeholder{color:white}
+/*Form flexbox*/
+#contact-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 35px;
+}
+/*Send button styling*/
+.button {
+    font-family: cursive;
+    background-color: rgb(158, 157, 157);
+    border: none;
+    color: rgb(14, 13, 13);
+    border: 3px solid black;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:15px;
+}
+/*Advanced search styling section*/
+.advanced_search p{font-size: 10px;}
+/*Homes and pictures styling*/
+img{ display: flex; width: 200px; height:200px ; float:left;}
+/*Styling the text next the image*/
+.text p{font-size: 13px;}
+/*Styling the image and text box*/
+.prop1{
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 10px;
+    border: 3px solid black;
+    width: 30%;
+    position:relative;
+    top: 100px;
+    left: 10px;
+    font-size: 15px;    
+}
+/*Styling the image and text box*/
+.prop2{
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 10px;
+    border: 3px solid black;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-size: 15px;    
+    
+}
+/*Styling the image and text box*/
+.prop3{
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 10px;
+    border: 3px solid black;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-size: 15px;    
+    
+}
+/*Styling the image and text box*/
+.prop4{
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 10px;
+    border: 3px solid black;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-size: 15px;    
+    
+}
+/*Styling the image and text box*/
+.prop5{
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 10px;
+    border: 3px solid black;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-size: 15px;    
+    
+}
+/*Container of the properties */
+.container_prop{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+/*-----------Map area-------------*/
+/*Map section styling*/
+.map_area{
+position: fixed;
+top: 20%;
+left: 35%;
+
+}
+/*Styling map iframe*/
+iframe{
+    width:100%;
+    height: 900px;
+     position: fixed;
+}
